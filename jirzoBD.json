@@ -1,0 +1,90 @@
+{
+  "shoppingCar": [
+    {
+      "id": 1,
+      "name": "My first book",
+      "quantity": 15,
+      "totalPrice": 14300,
+      "description": "The first book I ever wrote",
+      "price": 460
+    },
+    {
+      "id": 2,
+      "name": "My second book",
+      "price": 1200,
+      "description": "The second book I ever wrote",
+      "quantity": 12,
+      "totalPrice": 12180
+    },
+    {
+      "id": 3,
+      "name": "My third book",
+      "price": 80,
+      "description": "The third book I ever wrote",
+      "quantity": 5,
+      "totalPrice": 400
+    },
+    {
+      "id": 4,
+      "name": "My fourth book",
+      "price": 120,
+      "description": "The fourth book I ever wrote",
+      "quantity": 4,
+      "totalPrice": 480
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "My first book",
+      "description": "The first book I ever wrote",
+      "price": 460,
+      "stock": 150
+    },
+    {
+      "id": 2,
+      "name": "My second book",
+      "description": "The second book I ever wrote",
+      "price": 1200,
+      "stock": 400
+    },
+    {
+      "id": 3,
+      "name": "My third book",
+      "description": "The third book I ever wrote",
+      "price": 80,
+      "stock": 40
+    },
+    {
+      "id": 4,
+      "name": "My fourth book",
+      "description": "The fourth book I ever wrote",
+      "price": 120,
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "name": "My fifth book",
+      "description": "The fifth book I ever wrote",
+      "price": 120,
+      "stock": 10
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
