@@ -4,7 +4,7 @@ import Cart from "./components/Cart/Cart";
 import Layout from "./components/Layout/Layout";
 import Products from "./components/Shop/Products";
 import api from './api/connectToBD';
-import { cardActions, productsActions } from "./actions/cardActions";
+import { cardActions, getProducts } from "./actions/cardActions";
 
 function App() {
   const dispatch = useDispatch();
@@ -26,19 +26,11 @@ function App() {
     })
   }
 
-  const getProducts = async() =>{
-    await api.get('/products')
-    .then((res) =>{
-      let data = res.data;
-      dispatch(productsActions.getAllProducts(data))
-    }).catch((err) => {
-      console.error(err);
-    })
-  }
+
 
   useEffect(() => {
     getCartsItems();
-    getProducts();
+    dispatch(getProducts())
   })
 
   return (

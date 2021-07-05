@@ -3,8 +3,8 @@
     {
       "id": 1,
       "name": "My first book",
-      "quantity": 15,
-      "totalPrice": 14300,
+      "quantity": 8,
+      "totalPrice": 11080,
       "description": "The first book I ever wrote",
       "price": 460
     },
